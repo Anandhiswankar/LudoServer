@@ -19,10 +19,10 @@ const payu = require("pay-u").newOrder
 
 const mysql = require('mysql');
 const pool = mysql.createPool({
-	host: 'ipaddress',
-	user: 'username',
-	password: 'password',
-	database: 'database',
+	host: 'db-mysql-nyc3-38055-do-user-12337905-0.b.db.ondigitalocean.com',
+	user: 'doadmin',
+	password: 'AVNS__Xy8EBODf8tTuNiJTl_',
+	database: 'defaultdb',
 });
 
 var currVersion = 12;
